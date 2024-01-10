@@ -1,12 +1,18 @@
-
-/* 
-
-    You can write your own styles here...
+.counter {
+    text-align: center;
+    background-color: black;
+}
+.counter div {
+    background-color: rgb(24, 24, 24);
+    color: white;
+    display: inline-block;
+    font-size:60px;
+    line-height: 60px;
+    padding: 10px;
+    margin: 3px;
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+}
+.fa-clock {
+    color: red;
 
-*/
+}
